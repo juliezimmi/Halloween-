@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Halloween AI Gallery</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+    body {
+      background-color: #ff7518;
+      color: #fffbe6;
+      font-family: 'Creepster', cursive;
+      text-align: center;
+      padding: 40px;
+    }
+
+    h1 {
+      font-size: 60px;
+      margin-bottom: 10px;
+      text-shadow: 3px 3px 5px #000;
+    }
+
+    p {
+      font-size: 24px;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 30px;
+    }
+
+    .gallery img {
+      width: 300px;
+      height: auto;
+      margin: 10px;
+      border: 5px solid #000000;
+      border-radius: 10px;
+      box-shadow: 5px 5px 10px #00000088;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎃 Spooky AI Halloween Gallery 🕸️</h1>
+  <p>Enjoy creepy, cute & cool AI creations</p>
+
+  <div class="gallery">
+    <img src="image1.jpg" alt="Spooky Pumpkin">
+    <img src="image2.jpg" alt="Ghostly House">
+    <img src="image3.jpg" alt="Creepy Forest">
+    <!-- Add more <img> tags as needed -->
+  </div>
+</body>
+</html>
